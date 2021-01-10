@@ -12,7 +12,7 @@ const createWindow = () => {
     width: 800,
     height: 650,
     minWidth: 350,
-    icon: 'src/img/favicon.png',
+    icon: 'icon.png',
   });
 
   // and load the index.html of the app.
@@ -21,7 +21,7 @@ const createWindow = () => {
   mainWindow.loadURL('https://zeyu-li.github.io/emoji-finder/build/index.html');
 
   // Open the DevTools.
-  mainWindow.webContents.openDevTools();
+  // mainWindow.webContents.openDevTools();
 };
 
 // This method will be called when Electron has finished

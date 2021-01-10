@@ -2,7 +2,7 @@
   "name": "emojis-on-electron",
   "productName": "emojis-on-electron",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "A port of my emoji finder react project to electron",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
